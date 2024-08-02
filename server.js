@@ -50,6 +50,6 @@ app.use('/api/v1/doctor', require("./routes/doctor"));
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
-    console.log(`server is running successfully")
+    console.log("server is running successfully");
 
 })
